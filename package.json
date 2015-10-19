@@ -1,0 +1,24 @@
+{
+  "name": "lazy-vector-tiles",
+  "version": "0.1.0",
+  "description": "A lazy vector tile system. Not robust or high-performance, but rather straightforward.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "tiles",
+    "vector",
+    "tiles",
+    "map"
+  ],
+  "author": "Noah Veltman (@veltman)",
+  "license": "MIT",
+  "dependencies": {
+    "tile-cover": "^2.4.1",
+    "turf-intersect": "^1.4.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
